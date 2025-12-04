@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg: #020617;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: #e2e8f0;
+}
+
+/* hide scrollbar for examples */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* code container scrollbar */
+.code-container::-webkit-scrollbar { height: 6px; }
+.code-container::-webkit-scrollbar-thumb { background-color: #475569; border-radius: 3px; }
+.code-container::-webkit-scrollbar-track { background-color: #0f172a; }
+
+pre { tab-size: 2; }
+
+@media (max-width: 640px) {
+  .min-h-140px { min-height: 120px; }
+}
